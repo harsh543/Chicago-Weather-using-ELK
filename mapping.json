@@ -18,16 +18,19 @@
         "temperature_fahrenheit": {
           "type": "integer"
         },
-        "humidity": {
+        "humidity_percentage": {
           "type": "integer"
         },
-        "rain_intensity": {
+        "rain_intensity_mm_per_hour": {
           "type": "float"
         },
-        "interval_rain": {
+        "rain_intensity_inches_per_hour": {
           "type": "float"
         },
-        "maximum_wind_speed": {
+        "rain_since_last_hour_mm": {
+          "type": "float"
+        },
+        "rain_since_last_hour_inches": {
           "type": "float"
         },
         "precipitation_type": {
