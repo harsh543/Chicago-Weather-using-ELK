@@ -1,6 +1,6 @@
-## Chicago Crimes
+## Chicago Weather
 
-The Crime Analytics using Elastic Search:
+The Weather on Beach Analytics using Elastic Search:
 
 [Beach Weather Stations - Automated Sensors](https://data.cityofchicago.org/Parks-Recreation/Beach-Weather-Stations-Automated-Sensors/k7hf-8y75)
 
