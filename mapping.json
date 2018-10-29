@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "_doc": {
+      "properties": {
+        "id": {
+          "type": "keyword"
+        },
+        "date": {
+          "type": "date"
+        },
+        "temperature_celsius": {
+          "type": "float"
+        },
+        "temperature_fahrenheit": {
+          "type": "integer"
+        },
+        "humidity_percentage": {
+          "type": "integer"
+        },
+        "rain_intensity_mm_per_hour": {
+          "type": "float"
+        },
+        "rain_intensity_inches_per_hour": {
+          "type": "float"
+        },
+        "rain_since_last_hour_mm": {
+          "type": "float"
+        },
+        "rain_since_last_hour_inches": {
+          "type": "float"
+        },
+        "precipitation_type": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
